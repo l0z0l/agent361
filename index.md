@@ -15,7 +15,7 @@ hero:
       link:  https://bailian.aliyun.com/
     - theme: alt
       text: 开始阅读
-      link: /Agent000
+      link: /agent000
 
 features:
   - title: BillowFlow
