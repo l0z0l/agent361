@@ -139,7 +139,7 @@
      ![agent002-Agent生成结果](agent002-Agent生成结果.png)
 
    - 根据结果，进行提示词优化调整。
-   - 把返回的 HTML 代码创建文件，使用浏览器访问，生成的内容请查看[知书.html](https://agent361.cn/知书.html)。
+   - 把返回的 HTML 代码创建文件，使用浏览器访问，生成的内容请查看[知书.html](https://github.com/l0z0l/agent361/blob/startup/agent002/%E7%9F%A5%E4%B9%A6.html)。
      ![agent002-书单效果](agent002-书单效果.png)
 
 4. **Agent 发布**：
