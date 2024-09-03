@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Hello,Agent!"
-  text: "记录每一步构建的历程，从想法到实现。"
+  text: "记录构建历程，从想法到实现。"
   tagline: -----------------------------------
   image:
     src: /logo.svg
