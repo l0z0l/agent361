@@ -105,3 +105,11 @@
 
 ## 主题标签
 - `#阿里云` `#百炼平台` `#AI技术` `#注册`
+
+
+## SNS
+- 😈 小红书 / 即刻：[@小红书](https://www.xiaohongshu.com/user/profile/66b1bed6000000001d030505) / [@即刻](https://web.okjike.com/u/CA333BB2-2304-4F1E-A2DD-B7BBE4A997B5)
+- 🌏 网站-Agent361 ：https://agent361.cn/
+- 🔍 网站-自用导航 ：https://soul.icu/
+- 💰 网站-BillowFlow ：https://myinv.cn/
+- 📓 网站-笔记 ：https://mirror.xyz/lua.eth/

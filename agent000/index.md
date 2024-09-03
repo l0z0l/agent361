@@ -40,7 +40,7 @@
 让我们一起开启这段智能服务的探索之旅吧！记得关注我，不要错过任何一期的精彩内容哦！👀
 
 ## SNS
-- 😈 小红书 / 即刻：@阿里云百炼
+- 😈 小红书 / 即刻：[@小红书](https://www.xiaohongshu.com/user/profile/66b1bed6000000001d030505) / [@即刻](https://web.okjike.com/u/CA333BB2-2304-4F1E-A2DD-B7BBE4A997B5)
 - 🌏 网站-Agent361 ：https://agent361.cn/
 - 🔍 网站-自用导航 ：https://soul.icu/
 - 💰 网站-BillowFlow ：https://myinv.cn/

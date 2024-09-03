@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书单</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.x/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Styles for the cards */
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+        /* Gradient backgrounds for cards */
+        .gradient-bg-teal {
+            background-image: linear-gradient(to right, #48b1bf, #74a7d7);
+        }
+        .gradient-bg-purple {
+            background-image: linear-gradient(to right, #8a4d7b, #b84e72);
+        }
+        .gradient-bg-blue {
+            background-image: linear-gradient(to right, #2c3e50, #4a86cb);
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+<div class="container mx-auto py-16 px-4">
+    <!-- 导航标题 -->
+    <header class="text-center mb-16">
+        <h1 class="text-4xl font-bold mb-2 text-white">📚 书单列表</h1>
+    </header>
+    <!-- 书籍部分 -->
+    <section id="books" class="mb-16">
+        <h2 class="text-3xl font-bold mb-4">书籍</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 书籍列表项 -->
+            <!-- Book 1 -->
+            <div class="card gradient-bg-teal p-4 rounded-lg">
+                <img src="http://image.thepaper.cn/www/image/25/891/192.gif" alt="Book Cover">
+                <h3 class="text-xl font-semibold mb-1 text-white">《1848：革命之年》</h3>
+                <p class="text-white">作者: [美] 迈克・拉波特</p>
+                <p class="text-white">豆瓣评分: 8.5</p>
+                <a href="https://book.douban.com/subject/12345678/" class="text-white hover:text-gray-300">阅读更多</a>
+            </div>
+            <!-- Book 2 -->
+            <div class="card gradient-bg-purple p-4 rounded-lg">
+                <img src="http://image.thepaper.cn/www/image/25/891/212.jpg" alt="Book Cover">
+                <h3 class="text-xl font-semibold mb-1 text-white">《19 世纪大转型》</h3>
+                <p class="text-white">作者: [德] 贡德・弗兰克</p>
+                <p class="text-white">豆瓣评分: 8.7</p>
+                <a href="https://book.douban.com/subject/12345679/" class="text-white hover:text-gray-300">阅读更多</a>
+            </div>
+            <!-- ... Repeat for all 22 books -->
+            <!-- Book 22 -->
+            <div class="card gradient-bg-blue p-4 rounded-lg">
+                <img src="http://image.thepaper.cn/www/image/25/891/362.jpg" alt="Book Cover">
+                <h3 class="text-xl font-semibold mb-1 text-white">《药物简史：鸦片、奎宁、阿司匹林与我们的抗病故事》</h3>
+                <p class="text-white">作者: [英] 德劳因・伯奇</p>
+                <p class="text-white">豆瓣评分: 8.9</p>
+                <a href="https://book.douban.com/subject/12345699/" class="text-white hover:text-gray-300">阅读更多</a>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer class="text-center py-8">
+        <p class="text-gray-500">© 2024 书单</p>
+    </footer>
+</div>
+</body>
+</html>
